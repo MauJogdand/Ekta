@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name="Chrome">
+    <classes>
+      <class name="testNGstudy.PolicyBazaar"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Edge">
+    <classes>
+      <class name="testNGstudy.PolicyBazaarEdge"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Mozilla">
+    <classes>
+      <class name="testNGstudy.PolicyBazaarMozilla"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

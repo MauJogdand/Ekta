@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNGstudy.TestNGXMLStudy2">
+				<methods>
+					<include name="myMethod10" />
+					<include name="myMethod7" />
+					<include name="myMethod11" />
+					<include name="myMethod12" />
+
+
+				</methods>
+			</class>
+			<class name="testNGstudy.TestNgXMLStudy">
+				<methods>
+					<exclude name="myMethod3" />
+					<exclude name="myMethod2" />
+					<exclude name="myMethod5" />
+					<exclude name="myMethod1" />
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
